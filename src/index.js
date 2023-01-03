@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
-const porta = 3111;
+const porta = 3000;
 
 app.listen(porta, ()=> {
     console.log('rodou na porta ' + porta);
