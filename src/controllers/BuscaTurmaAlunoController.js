@@ -30,8 +30,6 @@ class BuscaTurmaAlunoController {
             }
            
             results.then(resultado => {
-                //const result = notaCalculosController.calculoMedias(resultado)
-                //console.log(result) 
                 return res.json(resultado)
 
             }, erro => {
